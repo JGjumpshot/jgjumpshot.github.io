@@ -1,2 +1,3 @@
 # jgjumpshot.github.io
-My Website
+About me
+<h2>Jackson Gunther</h2>
