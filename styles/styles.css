@@ -1,7 +1,7 @@
-.class-schedule {
+table, th, tr, td {
     border: solid 2px black;
 }
-
-/* .class-schedule > th {
-    border: solid 2px black;
-} */
+table {
+    padding: 3px;
+    border-spacing: 3px;
+}
