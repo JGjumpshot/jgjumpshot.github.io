@@ -1,7 +1,8 @@
-table, th, tr, td {
-    border: solid 2px black;
-}
 table {
     padding: 3px;
     border-spacing: 3px;
+    border: solid 2px black;
+}
+th, tr, td {
+    border: solid 2px black;
 }
