@@ -1,8 +1,33 @@
+/* * {
+    font-family: monospace;
+    color: greenyellow;
+    background-color: #131b4d;
+} */
+
+body {
+    overflow-x: hidden;
+    font-family: monospace;
+    color: greenyellow;
+    background-color: #131b4d;
+}
+
+.hero-background {
+    width: 100vw;
+    height: 100vh;
+}
+.profile-pic {
+    border-radius: 150px;
+    position: relative;
+    bottom: 86vh;
+}
+
 table {
     padding: 3px;
     border-spacing: 3px;
-    border: solid 2px black;
+    border: solid 2px greenyellow;
 }
 th, tr, td {
-    border: solid 2px black;
+    border: solid 2px greenyellow;
+    padding: 3px;
+    border-spacing: 3px;
 }
