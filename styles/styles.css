@@ -16,9 +16,12 @@ body {
     height: 100vh;
 }
 .profile-pic {
+    display: flex;
+    margin: 0 auto;
     border-radius: 150px;
     position: relative;
     bottom: 86vh;
+    border: solid 5px;
 }
 
 table {
