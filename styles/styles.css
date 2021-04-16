@@ -6,6 +6,10 @@
 html {
     scroll-behavior: smooth;
 }
+a {
+    color: greenyellow;
+    text-decoration: none;
+}
 body {
     overflow-x: hidden;
     font-family: monospace;
