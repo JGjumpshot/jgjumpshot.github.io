@@ -83,8 +83,14 @@ th, tr, td {
     border-spacing: 3px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 300px) {
     .nav {
         bottom: 152vh;
     }
+
+    #personal-info {
+        bottom: 55vh;
+    }
 }
+
+
