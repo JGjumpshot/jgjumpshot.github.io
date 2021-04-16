@@ -82,3 +82,9 @@ th, tr, td {
     padding: 3px;
     border-spacing: 3px;
 }
+
+@media only screen and (min-width: 700px) {
+    .nav {
+        bottom: 152vh;
+    }
+}
