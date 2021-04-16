@@ -3,13 +3,38 @@
     color: greenyellow;
     background-color: #131b4d;
 } */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     overflow-x: hidden;
     font-family: monospace;
     color: greenyellow;
     background-color: #131b4d;
     height: 100vh;
+} 
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav {
+    display: flex;
+    position: relative;
+    width: 32vw;
+    bottom: 161vh;
+    justify-content: space-around;
+    letter-spacing: 3px;
+    float: right;
+    margin-right: 28px;
+}
+.nav > li > a {
+    color: greenyellow;
+    text-decoration: none;
+}
+.nav > li:hover {
+    border-bottom: solid 2px greenyellow;
+    cursor: pointer;
 }
 .hero-background {
     width: 100vw;
@@ -23,7 +48,7 @@ body {
     bottom: 71vh;
     margin: 0 auto;
 }
-.name {
+#name {
     position: relative;
     bottom: 98vh;
     left: 20px;
@@ -36,15 +61,9 @@ body {
     bottom: 86vh;
     border: solid 5px;
 }
-.fa-angle-double-down {
-    display: inline;
-    width: 200px;
-    height: 200px;
-    color: white;
-}
-.personal-info {
+#personal-info {
     position: relative;
-    bottom: 46vh;
+    bottom: 62vh;
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 20px;

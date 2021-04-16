@@ -10,10 +10,18 @@
 </head>
 <body>
     <img class="hero-background" src="./images/hacker-background.jpg" alt="" srcset="">
-    <h1 class="name">Jackson Gunther</h1>
+    <h1 id="name">Jackson Gunther</h1>
     <img class="profile-pic" src="./images/profile.jpg" alt="Jackson Gunther">
-    <img class="chevrons" src="./images/chevrons.svg" alt="">
-    <div class="personal-info">
+    <a href="#personal-info"><img class="chevrons" src="./images/chevrons.svg" alt=""></a>
+    <nav>
+        <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="#favorite-books">Reading</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+        </ul>
+    </nav>
+    <div id="personal-info">
         <h2>Personal Info</h2>
         <ul>
             <li>Major: Computer Science</li>
@@ -22,8 +30,8 @@
             <li>Favorite Ice cream &#127846;&#127848;&#127846; Mint chocolate chip</li>
         </ul>
 
-        <h2>My five favorite books</h2>
-        <ul class="favorite-books">
+        <h2 id="favorite-books">My five favorite books</h2>
+        <ul>
             <li><i>Harry Potter and the Sorcerer's Stone</i> <a href="https://www.jkrowling.com/">J.K. Rowling</a></li>
             <li><i>Harry Potter and the Deathly Hallows</i> <a href="https://www.jkrowling.com/">J.K. Rowling</a></li>
             <li><i>Alex Rider: Scorpia</i> <a href="https://www.anthonyhorowitz.com/">Anthony Horowitz</a></li>
@@ -41,7 +49,7 @@
             </span>
         </p>
         
-        <h2>My personal interests</h2>
+        <h2 id="about">My personal interests</h2>
         <p>
             One of my personal hobbies is collecting Legos, more specifically Star Wars legos.<br> I love collecting all the different types of vehicles portrayed in the films. <br>Most recently I acquired the Slave I from Empire strikes back. <br>This build was cool because it's in one of my favorite movies and gives me a good building challenge. <br>It definitely took me 4 days to figure it out.
         </p>
@@ -60,7 +68,7 @@
             I like some of the missions in Star Wars and Destiny with the teamwork and strategem of Overwatch and Fortnite.  
         </p>
 
-        <h2>Class Schedule</h2>
+        <h2 id="schedule">Class Schedule</h2>
         <table class="class-schedule">
             <tr>
                 <th></th>
