@@ -21,6 +21,11 @@ nav {
     width: 100vw;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
+}
+.active {
+    text-decoration: underline 2px solid greenyellow;
 }
 .nav {
     display: flex;
@@ -82,14 +87,18 @@ th, tr, td {
     padding: 3px;
     border-spacing: 3px;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 @media only screen and (min-width: 300px) {
     .nav {
-        bottom: 152vh;
+        bottom: 134vh;
     }
 
     #personal-info {
-        bottom: 55vh;
+        bottom: 50vh;
     }
 }
 
