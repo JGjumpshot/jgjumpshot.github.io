@@ -1,9 +1,11 @@
 let navMenu = document.querySelectorAll(".nav > li");
-let home = document.querySelector(".nav > li");
+navMenu[0].classList.add("active");
+
 navMenu.forEach((element) => {
-    console.log(element.innerHTML);
-    element.classList.remove("active");
     element.addEventListener("click", function() {
+        navMenu.forEach(function(element) {
+            return element.classList.remove("active");
+        })
         element.classList.add("active");
     })
 })
